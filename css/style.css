@@ -1,0 +1,405 @@
+/*
+ESTO ARTICULA PARA PROPIEDADES COMO MARGIN-PADDING
+
+            |TOP-RIGHT-BOTTOM-LEFT|
+    margin: 10px 15px 20px 25px;
+
+            |T-R-B-L|
+    margin: 20px;
+
+            |T-B / L-R|
+    margin: 20px 10px;
+
+            |T-L-R  - B|
+    margin: 10px 10px 20px
+
+    -----------------------------------
+
+    margin-top:;
+    margin-bottom:;
+    margin-left:;
+    margin-right:;
+    */
+
+
+/*ESTILOS RESET*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth ;
+    font-family:Roboto ;
+
+}
+
+#body {
+    max-width: 100%;
+}
+
+/*ESTILOS HEADERR/NAV*/
+
+#header {
+    max-width: 100%;
+}
+
+#navbarNavAltMarkup {
+        justify-content: center;
+    }
+.navbar  {
+    background-color: wheat;   
+    height: auto;
+    max-width: 100%;
+}
+.logoHeader {
+    width: 80px;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+}
+.container-fluid {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+/*ESTILO MAIN*/
+
+#main {
+    display: flex;
+    flex-direction: column;
+} 
+
+#main h2 {
+    text-align: center;
+}
+
+.articleNoti1 {
+    display: flex;
+    
+}
+
+.imgNoti1 {
+    width: 600px;
+}
+
+.pieFoto {
+    background-color: black;
+    color: bisque;
+    font-size: 15px;
+    max-width: 10px;
+}
+
+.subTitleNoti1 {
+    color: bisque;
+    background-color: black;
+    max-width: 1000px;
+}
+
+.parrafoNoti1 {
+    font-size: 22px;
+}
+
+/* ESTILO NOTI 2 INDEX0 */
+
+#main h2 {
+    text-align: center;
+}
+
+.articleNoti2 {
+    display: flex;
+    
+}
+
+.imgNoti2 {
+    width: 600px;
+}
+
+.pieFoto {
+    background-color: black;
+    color: bisque;
+    font-size: 15px;
+    max-width: 600px;
+}
+
+.subTitleNoti2 {
+    color: bisque;
+    background-color: black;
+    max-width: 1300px;
+}
+
+.parrafoNoti2 {
+    font-size: 22px;
+    
+}
+
+/* ESTILO NOTI 3 INDEX */
+
+#main h2 {
+    text-align: center;
+}
+
+.articleNoti3 {
+    display: flex;
+
+}
+
+
+
+.imgNoti3 {
+    width: 600px;
+}
+
+.pieFoto {
+    background-color: black;
+    color: bisque;
+    font-size: 15px;
+    max-width: 600px;
+}
+
+.subTitleNoti3 {
+    color: bisque;
+    background-color: black;
+    max-width: 1000px;
+}
+
+.parrafoNoti3 {
+    font-size: 22px;
+}
+
+/* ESTILO MAIN PAG AUTOMOVILISMO */
+#mainAuto {
+    max-width: auto;
+    margin: 0;
+    padding-top: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.banerFrancoF1 {
+    width: 1400px;
+    height: 500px;
+}
+
+.imgActc {
+    width: 900px;
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+/* ESTILO PAG BASQUET */
+#mainBasquet {
+    max-width: 100%;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.sectionBasquet1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tituloBas1 {
+    font-size: 50px;
+}
+
+.articleBasquet1 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.sectionBasquet2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloBas2 {
+    text-align: center;
+}
+
+/* ESTILO PAG TENIS noti 1 */
+#main h2 {
+    text-align: center;
+}
+
+.articleNoti1Tenis {
+    display: flex;
+
+}
+.imgNoti1Tenis {
+    width: 600px;
+}
+
+.pieFoto {
+    background-color: black;
+    color: bisque;
+    font-size: 15px;
+    max-width: 900px;
+}
+
+.subTitleNoti1Tenis {
+    color: bisque;
+    background-color: black;
+    max-width: 1750px;
+}
+
+.parrafoNoti1Tenis {
+    font-size: 22px;
+}
+
+/* NOTICIA 2 TENIS  */
+.articleNoti2Tenis {
+    display: flex;
+
+}
+#imgNoti2Tenis {
+    width: 1400px;
+}
+
+.pieFoto {
+    background-color: black;
+    color: bisque;
+    font-size: 15px;
+    max-width: 900px;
+}
+
+.subTitleNoti2Tenis {
+    color: bisque;
+    background-color: black;
+    max-width: 1950px;
+}
+
+.parrafoNoti2Tenis {
+    font-size: 22px;
+}
+
+
+/* ESTILO PAG FUTBOL */
+
+#mainFutbol {
+    max-width: 100%;
+    margin:0 ;
+    padding-top: 1px;
+    display: grid;
+    grid-template-columns: 800px 800px 800px;
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 10px; /*espacio entre columnas*/
+    row-gap: 10px ; /*espacio entre filas*/
+    grid-template-areas: 
+    "section1    section2   section3"
+    "section4    section5   section6"
+    "section7    section8   section9"
+}
+
+.imagenSectionGrid {
+    width: 800px;
+
+}
+.imagenSectionGrid1 {
+    width: 800px;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.h2Tigre {
+    text-decoration: none;
+    color: black;
+}
+
+/* ESTILO FOOTER (GENERICO)*/
+#footer {
+    max-width: cover;
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+
+}
+
+.footerLogo {
+    width: 200px;
+}
+
+.footerNavCopy h2 {
+    font-size: 10px;
+    text-decoration: black;
+}
+
+.footerNav ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.footerRedes {
+    display: flex;
+    column-gap: 20px;
+}
+
+.footerRedes i {
+    font-size: 30px;
+}
+
+/*LLAMADO A MEDIA QUERIES*/
+@media  (max-width: 765px){
+    #mainFutbol {
+        grid-template-areas: 
+        "section1" 
+        "section2" 
+        "section3"
+        "section4" 
+        "section5"
+        "section6" 
+        "section7"
+        "section8" 
+        "section9";
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(9,1fr);
+    }
+    }
+
+@media (max-width: 750px) {
+        #mainAuto {
+            flex-wrap: wrap;
+    }
+    }
+
+    @media (max-width: 750px) {
+    #main {
+            flex-wrap: wrap;
+        }
+        }
+
+    @media (max-width: 750px) {
+        #mainBasquet {
+                flex-wrap: wrap;
+            }
+            }
+
+
