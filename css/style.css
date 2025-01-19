@@ -387,18 +387,21 @@ ESTO ARTICULA PARA PROPIEDADES COMO MARGIN-PADDING
 /* RESPONSIVE PAG INDEX */
     @media (max-width: 750px) {
         #main {
+            display: flex;
             flex-wrap: wrap;
             flex-direction: column;
             justify-content: center:
         }
 
         .articleNoti1 {
+            display: flex;
             flex-wrap: wrap;
             flex-direction: column;
             justify-content: center;
         }
 
         .articleNoti2 {
+            display: flex ;
             flex-wrap: wrap;
             flex-direction: column;
         }
