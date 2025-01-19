@@ -371,7 +371,7 @@ ESTO ARTICULA PARA PROPIEDADES COMO MARGIN-PADDING
         "section7"
         "section8" 
         "section9";
-        grid-template-columns: 1fr ;
+        grid-template-columns: 2fr ;
         grid-template-rows: repeat(9,1fr);
 
     }
