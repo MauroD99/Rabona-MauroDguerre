@@ -330,6 +330,7 @@ ESTO ARTICULA PARA PROPIEDADES COMO MARGIN-PADDING
 }
 
 /*LLAMADO A MEDIA QUERIES*/
+<<<<<<< HEAD
 @media (max-width: 700px) {
   #mainFutbol {
     grid-template-areas: "section1" "section2" "section3" "section4" "section5" "section6" "section7" "section8" "section9";
@@ -337,6 +338,25 @@ ESTO ARTICULA PARA PROPIEDADES COMO MARGIN-PADDING
     grid-template-rows: repeat(9, 1fr);
   }
 }
+=======
+@media  (max-width: 700px){
+    #mainFutbol {
+        grid-template-areas: 
+        "section1" 
+        "section2" 
+        "section3"
+        "section4" 
+        "section5"
+        "section6" 
+        "section7"
+        "section8" 
+        "section9";
+        grid-template-columns: 2fr ;
+        grid-template-rows: repeat(9,1fr);
+
+    }
+    }
+>>>>>>> 20804d4d2e2d31fee5c274ba33dfa4bb53b64dcc
 /* RESPONSIVE PAG AUTOMOVILISMO */
 @media (max-width: 750px) {
   #mainAuto {
@@ -345,6 +365,7 @@ ESTO ARTICULA PARA PROPIEDADES COMO MARGIN-PADDING
   }
 }
 /* RESPONSIVE PAG INDEX */
+<<<<<<< HEAD
 @media (max-width: 950px) {
   #main {
     flex-wrap: wrap;
@@ -393,5 +414,73 @@ ESTO ARTICULA PARA PROPIEDADES COMO MARGIN-PADDING
     flex-direction: column;
   }
 }
+=======
+    @media (max-width: 750px) {
+        #main {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center:
+        }
+
+        .articleNoti1 {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .articleNoti2 {
+            display: flex ;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        .articleNoti3 {
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        .sectionNotiInicio {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        }
+
+        /* RESOINSIVE BASQUET */
+
+        @media (max-width: 950px) {
+            #mainBasquet {
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+
+            
+        }
+
+        @media (max-width: 1000px) {
+            .noti1Basquet {
+                flex-wrap: wrap;
+                
+            }
+        }
+
+        /* RESPONSIVE TENIS */
+
+        @media (max-width: 950px){
+            .articleNoti1Tenis {
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+            .articleNoti2Tenis {
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+
+            
+        }
+>>>>>>> 20804d4d2e2d31fee5c274ba33dfa4bb53b64dcc
 
 /*# sourceMappingURL=style.css.map */
