@@ -1,0 +1,26 @@
+/* ESTILO PAG BASQUET */
+
+
+#mainBasquet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: whitesmoke;
+} 
+
+.noti1Basquet {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    background-color:whitesmoke;
+    
+}
+
+.card-text {
+    font-size: 20px;
+}

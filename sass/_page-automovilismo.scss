@@ -1,0 +1,29 @@
+/* ESTILO MAIN PAG AUTOMOVILISMO */
+#mainAuto {
+    max-width: auto;
+    margin: 0;
+    padding-top: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.banerFrancoF1 {
+    width: 1400px;
+    height: 500px;
+}
+
+.imgActc {
+    width: 900px;
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+}
+

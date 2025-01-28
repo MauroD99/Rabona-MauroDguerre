@@ -1,0 +1,247 @@
+@import "reset";
+@import "page-inicio";
+@import "page-automovilismo";
+@import "page-basquet";
+@import "page-tenis";
+@import "page-futbol";
+@import "footer";
+
+
+
+
+
+
+
+/*ESTILOS HEADERR/NAV*/
+
+#header {
+    max-width: 100%;
+}
+
+#navbarNavAltMarkup {
+        justify-content: center;
+    }
+.navbar  {
+    background-color: wheat;   
+    height: auto;
+    max-width: 100%;
+}
+.logoHeader {
+    width: 80px;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+}
+.container-fluid {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+/*ESTILO MAIN*/
+
+#main {
+    display: flex;
+    flex-direction: column;
+} 
+
+#main h2 {
+    text-align: center;
+}
+
+.articleNoti1 {
+    display: flex;
+    
+}
+
+.imgNoti1 {
+    width: 600px;
+}
+
+.pieFoto {
+    background-color: black;
+    color: bisque;
+    font-size: 15px;
+    max-width: 10px;
+}
+
+.subTitleNoti1 {
+    color: bisque;
+    background-color: black;
+    max-width: 1000px;
+}
+
+.parrafoNoti1 {
+    font-size: 22px;
+}
+
+/* ESTILO NOTI 2 INDEX0 */
+
+#main h2 {
+    text-align: center;
+}
+
+.articleNoti2 {
+    display: flex;
+    
+}
+
+.imgNoti2 {
+    width: 600px;
+}
+
+.pieFoto {
+    background-color: black;
+    color: bisque;
+    font-size: 15px;
+    max-width: 600px;
+}
+
+.subTitleNoti2 {
+    color: bisque;
+    background-color: black;
+    max-width: 1300px;
+}
+
+.parrafoNoti2 {
+    font-size: 22px;
+    
+}
+
+/* ESTILO NOTI 3 INDEX */
+
+#main h2 {
+    text-align: center;
+}
+
+.articleNoti3 {
+    display: flex;
+
+}
+
+
+
+.imgNoti3 {
+    width: 600px;
+}
+
+.pieFoto {
+    background-color: black;
+    color: bisque;
+    font-size: 15px;
+    max-width: 600px;
+}
+
+.subTitleNoti3 {
+    color: bisque;
+    background-color: black;
+    max-width: 1000px;
+}
+
+.parrafoNoti3 {
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+/*LLAMADO A MEDIA QUERIES*/
+@media  (max-width: 700px){
+    #mainFutbol {
+        grid-template-areas: 
+        "section1" 
+        "section2" 
+        "section3"
+        "section4" 
+        "section5"
+        "section6" 
+        "section7"
+        "section8" 
+        "section9";
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(9,1fr);
+
+    }
+    }
+/* RESPONSIVE PAG AUTOMOVILISMO */
+@media (max-width: 750px) {
+    #mainAuto {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    }
+
+/* RESPONSIVE PAG INDEX */
+    @media (max-width: 950px) {
+        #main {
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        .articleNoti1 {
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .articleNoti2 {
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        .articleNoti3 {
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        .sectionNotiInicio {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        }
+
+        /* RESOINSIVE BASQUET */
+
+        @media (max-width: 950px) {
+            #mainBasquet {
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+
+            
+        }
+
+        @media (max-width: 1000px) {
+            .noti1Basquet {
+                flex-wrap: wrap;
+                
+            }
+        }
+
+        /* RESPONSIVE TENIS */
+
+        @media (max-width: 950px){
+            .articleNoti1Tenis {
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+            .articleNoti2Tenis {
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+
+            
+        }

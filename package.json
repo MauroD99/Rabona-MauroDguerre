@@ -1,0 +1,19 @@
+{
+  "name": "rabona",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MauroD99/Rabona-MauroDguerre.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MauroD99/Rabona-MauroDguerre/issues"
+  },
+  "homepage": "https://github.com/MauroD99/Rabona-MauroDguerre#readme",
+  "description": ""
+}

@@ -1,0 +1,37 @@
+/*
+ESTO ARTICULA PARA PROPIEDADES COMO MARGIN-PADDING
+
+            |TOP-RIGHT-BOTTOM-LEFT|
+    margin: 10px 15px 20px 25px;
+
+            |T-R-B-L|
+    margin: 20px;
+
+            |T-B / L-R|
+    margin: 20px 10px;
+
+            |T-L-R  - B|
+    margin: 10px 10px 20px
+
+    -----------------------------------
+
+    margin-top:;
+    margin-bottom:;
+    margin-left:;
+    margin-right:;
+    */
+
+
+/*ESTILOS RESET*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth ;
+    font-family:Roboto ;
+
+}
+
+#body {
+    max-width: 100%;
+}
