@@ -1,37 +1,64 @@
 /*
 ESTO ARTICULA PARA PROPIEDADES COMO MARGIN-PADDING
 
-            |TOP-RIGHT-BOTTOM-LEFT|
-    margin: 10px 15px 20px 25px;
+        |TOP-RIGHT-BOTTOM-LEFT|
+margin: 10px 15px 20px 25px;
 
-            |T-R-B-L|
-    margin: 20px;
+        |T-R-B-L|
+margin: 20px;
 
-            |T-B / L-R|
-    margin: 20px 10px;
+        |T-B / L-R|
+margin: 20px 10px;
 
-            |T-L-R  - B|
-    margin: 10px 10px 20px
+        |T-L-R  - B|
+margin: 10px 10px 20px
 
-    -----------------------------------
+-----------------------------------
 
-    margin-top:;
-    margin-bottom:;
-    margin-left:;
-    margin-right:;
+margin-top:;
+margin-bottom:;
+margin-left:;
+margin-right:;
     */
 
 
 /*ESTILOS RESET*/
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    scroll-behavior:smooth ;
-    font-family:Roboto ;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+scroll-behavior:smooth ;
+font-family:Roboto ;
 
 }
 
 #body {
-    max-width: 100%;
+max-width: 100%;
 }
+
+
+
+#header {
+        max-width: 100%;
+        }
+        
+        #navbarNavAltMarkup {
+                justify-content: center;
+        }
+        .navbar  {
+        background-color: wheat;   
+        height: auto;
+        max-width: 100%;
+        }
+        .logoHeader {
+        width: 80px;
+        }
+        
+        .nav-link {
+        display: flex;
+        justify-content: center;
+        }
+        .container-fluid {
+        max-width: 100%;
+        }
+        

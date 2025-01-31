@@ -1,24 +1,24 @@
 /*
 ESTO ARTICULA PARA PROPIEDADES COMO MARGIN-PADDING
 
-            |TOP-RIGHT-BOTTOM-LEFT|
-    margin: 10px 15px 20px 25px;
+        |TOP-RIGHT-BOTTOM-LEFT|
+margin: 10px 15px 20px 25px;
 
-            |T-R-B-L|
-    margin: 20px;
+        |T-R-B-L|
+margin: 20px;
 
-            |T-B / L-R|
-    margin: 20px 10px;
+        |T-B / L-R|
+margin: 20px 10px;
 
-            |T-L-R  - B|
-    margin: 10px 10px 20px
+        |T-L-R  - B|
+margin: 10px 10px 20px
 
-    -----------------------------------
+-----------------------------------
 
-    margin-top:;
-    margin-bottom:;
-    margin-left:;
-    margin-right:;
+margin-top:;
+margin-bottom:;
+margin-left:;
+margin-right:;
     */
 /*ESTILOS RESET*/
 * {
@@ -31,6 +31,128 @@ ESTO ARTICULA PARA PROPIEDADES COMO MARGIN-PADDING
 
 #body {
   max-width: 100%;
+}
+
+#header {
+  max-width: 100%;
+}
+
+#navbarNavAltMarkup {
+  justify-content: center;
+}
+
+.navbar {
+  background-color: wheat;
+  height: auto;
+  max-width: 100%;
+}
+
+.logoHeader {
+  width: 80px;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+}
+
+.container-fluid {
+  max-width: 100%;
+}
+
+/*ESTILO MAIN*/
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
+#main h2 {
+  text-align: center;
+}
+
+.articleNoti1 {
+  display: flex;
+}
+
+.imgNoti1 {
+  width: 600px;
+}
+
+.pieFoto {
+  background-color: black;
+  color: bisque;
+  font-size: 15px;
+  max-width: 10px;
+}
+
+.subTitleNoti1 {
+  color: bisque;
+  background-color: black;
+  max-width: 1000px;
+}
+
+.parrafoNoti1 {
+  font-size: 22px;
+}
+
+/* ESTILO NOTI 2 INDEX0 */
+#main h2 {
+  text-align: center;
+}
+
+.articleNoti2 {
+  display: flex;
+}
+
+.imgNoti2 {
+  width: 600px;
+}
+
+.pieFoto {
+  background-color: black;
+  color: bisque;
+  font-size: 15px;
+  max-width: 600px;
+}
+
+.subTitleNoti2 {
+  color: bisque;
+  background-color: black;
+  max-width: 1300px;
+}
+
+.parrafoNoti2 {
+  font-size: 22px;
+}
+
+/* ESTILO NOTI 3 INDEX */
+#main h2 {
+  text-align: center;
+}
+
+.articleNoti3 {
+  display: flex;
+}
+
+.imgNoti3 {
+  width: 600px;
+}
+
+.pieFoto {
+  background-color: black;
+  color: bisque;
+  font-size: 15px;
+  max-width: 600px;
+}
+
+.subTitleNoti3 {
+  color: bisque;
+  background-color: black;
+  max-width: 1000px;
+}
+
+.parrafoNoti3 {
+  font-size: 22px;
 }
 
 /* ESTILO MAIN PAG AUTOMOVILISMO */
@@ -83,6 +205,11 @@ ESTO ARTICULA PARA PROPIEDADES COMO MARGIN-PADDING
 
 .card-text {
   font-size: 20px;
+}
+
+.noti2Basquet {
+  display: flex;
+  justify-content: space-around;
 }
 
 /* ESTILO PAG TENIS noti 1 */
@@ -206,131 +333,7 @@ ESTO ARTICULA PARA PROPIEDADES COMO MARGIN-PADDING
   font-size: 30px;
 }
 
-/*ESTILOS HEADERR/NAV*/
-#header {
-  max-width: 100%;
-}
-
-#navbarNavAltMarkup {
-  justify-content: center;
-}
-
-.navbar {
-  background-color: wheat;
-  height: auto;
-  max-width: 100%;
-}
-
-.logoHeader {
-  width: 80px;
-}
-
-.nav-link {
-  display: flex;
-  justify-content: center;
-}
-
-.container-fluid {
-  max-width: 100%;
-}
-
-/*ESTILO MAIN*/
-#main {
-  display: flex;
-  flex-direction: column;
-}
-
-#main h2 {
-  text-align: center;
-}
-
-.articleNoti1 {
-  display: flex;
-}
-
-.imgNoti1 {
-  width: 600px;
-}
-
-.pieFoto {
-  background-color: black;
-  color: bisque;
-  font-size: 15px;
-  max-width: 10px;
-}
-
-.subTitleNoti1 {
-  color: bisque;
-  background-color: black;
-  max-width: 1000px;
-}
-
-.parrafoNoti1 {
-  font-size: 22px;
-}
-
-/* ESTILO NOTI 2 INDEX0 */
-#main h2 {
-  text-align: center;
-}
-
-.articleNoti2 {
-  display: flex;
-}
-
-.imgNoti2 {
-  width: 600px;
-}
-
-.pieFoto {
-  background-color: black;
-  color: bisque;
-  font-size: 15px;
-  max-width: 600px;
-}
-
-.subTitleNoti2 {
-  color: bisque;
-  background-color: black;
-  max-width: 1300px;
-}
-
-.parrafoNoti2 {
-  font-size: 22px;
-}
-
-/* ESTILO NOTI 3 INDEX */
-#main h2 {
-  text-align: center;
-}
-
-.articleNoti3 {
-  display: flex;
-}
-
-.imgNoti3 {
-  width: 600px;
-}
-
-.pieFoto {
-  background-color: black;
-  color: bisque;
-  font-size: 15px;
-  max-width: 600px;
-}
-
-.subTitleNoti3 {
-  color: bisque;
-  background-color: black;
-  max-width: 1000px;
-}
-
-.parrafoNoti3 {
-  font-size: 22px;
-}
-
 /*LLAMADO A MEDIA QUERIES*/
-<<<<<<< HEAD
 @media (max-width: 700px) {
   #mainFutbol {
     grid-template-areas: "section1" "section2" "section3" "section4" "section5" "section6" "section7" "section8" "section9";
@@ -338,25 +341,6 @@ ESTO ARTICULA PARA PROPIEDADES COMO MARGIN-PADDING
     grid-template-rows: repeat(9, 1fr);
   }
 }
-=======
-@media  (max-width: 700px){
-    #mainFutbol {
-        grid-template-areas: 
-        "section1" 
-        "section2" 
-        "section3"
-        "section4" 
-        "section5"
-        "section6" 
-        "section7"
-        "section8" 
-        "section9";
-        grid-template-columns: 2fr ;
-        grid-template-rows: repeat(9,1fr);
-
-    }
-    }
->>>>>>> 20804d4d2e2d31fee5c274ba33dfa4bb53b64dcc
 /* RESPONSIVE PAG AUTOMOVILISMO */
 @media (max-width: 750px) {
   #mainAuto {
@@ -365,7 +349,6 @@ ESTO ARTICULA PARA PROPIEDADES COMO MARGIN-PADDING
   }
 }
 /* RESPONSIVE PAG INDEX */
-<<<<<<< HEAD
 @media (max-width: 950px) {
   #main {
     flex-wrap: wrap;
@@ -414,73 +397,5 @@ ESTO ARTICULA PARA PROPIEDADES COMO MARGIN-PADDING
     flex-direction: column;
   }
 }
-=======
-    @media (max-width: 750px) {
-        #main {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            justify-content: center:
-        }
-
-        .articleNoti1 {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .articleNoti2 {
-            display: flex ;
-            flex-wrap: wrap;
-            flex-direction: column;
-        }
-
-        .articleNoti3 {
-            flex-wrap: wrap;
-            flex-direction: column;
-        }
-
-        .sectionNotiInicio {
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            flex-direction: column;
-        }
-        }
-
-        /* RESOINSIVE BASQUET */
-
-        @media (max-width: 950px) {
-            #mainBasquet {
-                flex-wrap: wrap;
-                flex-direction: column;
-            }
-
-            
-        }
-
-        @media (max-width: 1000px) {
-            .noti1Basquet {
-                flex-wrap: wrap;
-                
-            }
-        }
-
-        /* RESPONSIVE TENIS */
-
-        @media (max-width: 950px){
-            .articleNoti1Tenis {
-                flex-wrap: wrap;
-                flex-direction: column;
-            }
-            .articleNoti2Tenis {
-                flex-wrap: wrap;
-                flex-direction: column;
-            }
-
-            
-        }
->>>>>>> 20804d4d2e2d31fee5c274ba33dfa4bb53b64dcc
 
 /*# sourceMappingURL=style.css.map */

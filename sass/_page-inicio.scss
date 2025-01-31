@@ -1,0 +1,105 @@
+
+/*ESTILO MAIN*/
+
+#main {
+    display: flex;
+    flex-direction: column;
+} 
+
+#main h2 {
+    text-align: center;
+}
+
+.articleNoti1 {
+    display: flex;
+    
+}
+
+.imgNoti1 {
+    width: 600px;
+}
+
+.pieFoto {
+    background-color: black;
+    color: bisque;
+    font-size: 15px;
+    max-width: 10px;
+}
+
+.subTitleNoti1 {
+    color: bisque;
+    background-color: black;
+    max-width: 1000px;
+}
+
+.parrafoNoti1 {
+    font-size: 22px;
+}
+
+/* ESTILO NOTI 2 INDEX0 */
+
+#main h2 {
+    text-align: center;
+}
+
+.articleNoti2 {
+    display: flex;
+    
+}
+
+.imgNoti2 {
+    width: 600px;
+}
+
+.pieFoto {
+    background-color: black;
+    color: bisque;
+    font-size: 15px;
+    max-width: 600px;
+}
+
+.subTitleNoti2 {
+    color: bisque;
+    background-color: black;
+    max-width: 1300px;
+}
+
+.parrafoNoti2 {
+    font-size: 22px;
+    
+}
+
+/* ESTILO NOTI 3 INDEX */
+
+#main h2 {
+    text-align: center;
+}
+
+.articleNoti3 {
+    display: flex;
+
+}
+
+
+
+.imgNoti3 {
+    width: 600px;
+}
+
+.pieFoto {
+    background-color: black;
+    color: bisque;
+    font-size: 15px;
+    max-width: 600px;
+}
+
+.subTitleNoti3 {
+    color: bisque;
+    background-color: black;
+    max-width: 1000px;
+}
+
+.parrafoNoti3 {
+    font-size: 22px;
+}
+
