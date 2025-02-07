@@ -1,10 +1,12 @@
-@import "reset";
-@import "page-inicio";
-@import "page-automovilismo";
-@import "page-basquet";
-@import "page-tenis";
-@import "page-futbol";
-@import "footer";
+@use "reset";
+@use "page-inicio";
+@use "page-automovilismo";
+@use "page-basquet";
+@use "page-tenis";
+@use "page-futbol";
+@use "footer";
+@use "sistemaresponsive";
+@use "animaciones" ;
 
 
 
@@ -26,92 +28,3 @@
 
 
 
-/*LLAMADO A MEDIA QUERIES*/
-@media  (max-width: 700px){
-    #mainFutbol {
-        grid-template-areas: 
-        "section1" 
-        "section2" 
-        "section3"
-        "section4" 
-        "section5"
-        "section6" 
-        "section7"
-        "section8" 
-        "section9";
-        grid-template-columns: 1fr ;
-        grid-template-rows: repeat(9,1fr);
-
-    }
-    }
-/* RESPONSIVE PAG AUTOMOVILISMO */
-@media (max-width: 750px) {
-    #mainAuto {
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-    }
-
-/* RESPONSIVE PAG INDEX */
-    @media (max-width: 950px) {
-        #main {
-            flex-wrap: wrap;
-            flex-direction: column;
-        }
-
-        .articleNoti1 {
-            flex-wrap: wrap;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .articleNoti2 {
-            flex-wrap: wrap;
-            flex-direction: column;
-        }
-
-        .articleNoti3 {
-            flex-wrap: wrap;
-            flex-direction: column;
-        }
-
-        .sectionNotiInicio {
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            flex-direction: column;
-        }
-        }
-
-        /* RESOINSIVE BASQUET */
-
-        @media (max-width: 950px) {
-            #mainBasquet {
-                flex-wrap: wrap;
-                flex-direction: column;
-            }
-
-            
-        }
-
-        @media (max-width: 1000px) {
-            .noti1Basquet {
-                flex-wrap: wrap;
-                
-            }
-        }
-
-        /* RESPONSIVE TENIS */
-
-        @media (max-width: 950px){
-            .articleNoti1Tenis {
-                flex-wrap: wrap;
-                flex-direction: column;
-            }
-            .articleNoti2Tenis {
-                flex-wrap: wrap;
-                flex-direction: column;
-            }
-
-            
-        }

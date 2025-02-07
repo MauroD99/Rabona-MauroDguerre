@@ -248,7 +248,7 @@ margin-right:;
 }
 
 #imgNoti2Tenis {
-  width: 1400px;
+  width: 1700px;
 }
 
 .pieFoto {
@@ -385,6 +385,15 @@ margin-right:;
   .noti1Basquet {
     flex-wrap: wrap;
   }
+  .noti2Basquet {
+    flex-wrap: wrap;
+  }
+  .section2Basquet {
+    flex-wrap: wrap;
+  }
+  .section1Basquet {
+    flex-wrap: wrap;
+  }
 }
 /* RESPONSIVE TENIS */
 @media (max-width: 950px) {
@@ -395,6 +404,21 @@ margin-right:;
   .articleNoti2Tenis {
     flex-wrap: wrap;
     flex-direction: column;
+  }
+}
+.imgNoti1Tenis {
+  animation-name: flip-horizontal-top;
+  animation-duration: 1s;
+}
+
+@keyframes flip-horizontal-top {
+  0% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
   }
 }
 

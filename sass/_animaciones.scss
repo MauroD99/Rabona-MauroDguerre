@@ -1,0 +1,40 @@
+
+// {
+//     animation-name: efectoX;
+//     animation-iteration-count: initial;
+//     animation-timing-function: ease-in;
+//     animation-duration: 3s;
+//     animation-delay: 3s;
+// }
+
+
+// @keyframes efectoX {
+//     0% {width:100px;}
+//     10% {width: 120px;}
+//     20% {width: 140px;}
+//     30% {width: 160px;}
+//     40% {width: 180px;}
+//     50% {width: 200px;}
+//     60% {width: 220px;}
+//     70% {width: 240px;}
+//     80% {width: 260px;}
+//     90% {width: 280px;}
+//     100%{width: 300px;}
+// }
+
+.imgNoti1Tenis {
+    animation-name: flip-horizontal-top ;
+    animation-duration: 1s;
+}
+
+@keyframes flip-horizontal-top {
+    0% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+    }
+    100% {
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+    }
+}
+
