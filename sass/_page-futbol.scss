@@ -7,12 +7,14 @@
     display: grid;
     grid-template-columns: 800px 800px 800px;
     grid-template-rows: repeat(3,1fr);
-    column-gap: 10px; /*espacio entre columnas*/
+    column-gap: 70px; /*espacio entre columnas*/
     row-gap: 10px ; /*espacio entre filas*/
     grid-template-areas: 
-    "section1    section2   section3"
-    "section4    section5   section6"
-    "section7    section8   section9"
+    "section1    section2  section3 "
+    "section4    section5  section6 "
+    "section7    section8  section9 "
+    
+
 }
 
 .imagenSectionGrid {

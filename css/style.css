@@ -276,9 +276,9 @@ margin-right:;
   display: grid;
   grid-template-columns: 800px 800px 800px;
   grid-template-rows: repeat(3, 1fr);
-  column-gap: 10px; /*espacio entre columnas*/
+  column-gap: 70px; /*espacio entre columnas*/
   row-gap: 10px; /*espacio entre filas*/
-  grid-template-areas: "section1    section2   section3" "section4    section5   section6" "section7    section8   section9";
+  grid-template-areas: "section1    section2  section3 " "section4    section5  section6 " "section7    section8  section9 ";
 }
 
 .imagenSectionGrid {
@@ -334,7 +334,7 @@ margin-right:;
 }
 
 /*LLAMADO A MEDIA QUERIES*/
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   #mainFutbol {
     grid-template-areas: "section1" "section2" "section3" "section4" "section5" "section6" "section7" "section8" "section9";
     grid-template-columns: 1fr;
@@ -349,7 +349,7 @@ margin-right:;
   }
 }
 /* RESPONSIVE PAG INDEX */
-@media (max-width: 950px) {
+@media (max-width: 1500px) {
   #main {
     flex-wrap: wrap;
     flex-direction: column;
@@ -358,20 +358,24 @@ margin-right:;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   .articleNoti2 {
     flex-wrap: wrap;
     flex-direction: column;
+    align-items: center;
   }
   .articleNoti3 {
     flex-wrap: wrap;
     flex-direction: column;
+    align-items: center;
   }
   .sectionNotiInicio {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    align-items: center;
   }
 }
 /* RESOINSIVE BASQUET */
@@ -381,7 +385,7 @@ margin-right:;
     flex-direction: column;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
   .noti1Basquet {
     flex-wrap: wrap;
   }
@@ -396,14 +400,16 @@ margin-right:;
   }
 }
 /* RESPONSIVE TENIS */
-@media (max-width: 950px) {
+@media (max-width: 1450px) {
   .articleNoti1Tenis {
     flex-wrap: wrap;
     flex-direction: column;
+    align-items: center;
   }
   .articleNoti2Tenis {
     flex-wrap: wrap;
     flex-direction: column;
+    align-items: center;
   }
 }
 .imgNoti1Tenis {
