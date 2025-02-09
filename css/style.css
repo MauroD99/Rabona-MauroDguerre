@@ -335,7 +335,7 @@ margin-right:;
 }
 
 /*LLAMADO A MEDIA QUERIES*/
-@media (min-width: 200px) and (max-width: 1100px) {
+@media (min-width: 200px) and (max-width: 480px) {
   #mainFutbol {
     grid-template-areas: "section1" "section2" "section3" "section4" "section5" "section6" "section7" "section8" "section9";
     grid-template-columns: 1fr;
@@ -347,14 +347,15 @@ margin-right:;
   }
 }
 /* RESPONSIVE PAG AUTOMOVILISMO */
-@media (min-width: 300px) and (max-width: 750px) {
+@media (min-width: 300px) and (max-width: 480px) {
   #mainAuto {
     flex-wrap: wrap;
     flex-direction: column;
   }
 }
 /* RESPONSIVE PAG INDEX */
-@media (min-width: 300px) and (max-width: 1500px) {
+/* Estilos para telas menores que 480px (celulares) */
+@media (min-width: 300px) and (max-width: 480px) {
   #main {
     flex-wrap: wrap;
     flex-direction: column;
@@ -385,14 +386,16 @@ margin-right:;
   }
 }
 /* RESOINSIVE BASQUET */
-@media (min-width: 200px) and (max-width: 950px) {
+/* Estilos para telas menores que 480px (celulares) */
+@media (min-width: 200px) and (max-width: 480px) {
   #mainBasquet {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
   }
 }
-@media (min-width: 200px) and (max-width: 1300px) {
+/* Estilos para telas menores que 480px (celulares) */
+@media (min-width: 200px) and (max-width: 480px) {
   .noti1Basquet {
     flex-wrap: wrap;
     align-items: center;
@@ -412,7 +415,7 @@ margin-right:;
 }
 /* RESPONSIVE TENIS */
 /* Estilos para telas menores que 480px (celulares) */
-@media (min-width: 200px) and (max-width: 450px) {
+@media (min-width: 200px) and (max-width: 480px) {
   .articleNoti1Tenis {
     flex-wrap: wrap;
     flex-direction: column;
@@ -430,7 +433,8 @@ margin-right:;
     max-width: 100%;
   }
 }
-@media (min-width: 300px) and (max-width: 1500px) {
+/* Estilos para telas menores que 480px (celulares) */
+@media (min-width: 300px) and (max-width: 480px) {
   #footer {
     flex-wrap: wrap;
   }
