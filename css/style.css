@@ -374,7 +374,7 @@ margin-right:;
   }
 }
 /* RESPONSIVE PAG AUTOMOVILISMO */
-@media (min-width: 300px) and (max-width: 480px) {
+@media (min-width: 200px) and (max-width: 480px) {
   #mainAuto {
     flex-wrap: wrap;
     flex-direction: column;
@@ -384,7 +384,7 @@ margin-right:;
 }
 /* RESPONSIVE PAG INDEX */
 /* Estilos para telas menores que 480px (celulares) */
-@media (min-width: 300px) and (max-width: 480px) {
+@media (min-width: 200px) and (max-width: 480px) {
   #main {
     flex-wrap: wrap;
     flex-direction: column;
@@ -417,6 +417,18 @@ margin-right:;
     flex-direction: column;
     align-items: center;
     max-width: 90%; /* Ancho máximo del 90% en móviles */
+  }
+  .imgNoti1 {
+    min-width: none;
+    max-width: 90%;
+  }
+  .imgNoti2 {
+    min-width: none;
+    max-width: 90%;
+  }
+  .imgNoti2 {
+    min-width: none;
+    max-width: 90%;
   }
 }
 /* RESOINSIVE BASQUET */
@@ -476,6 +488,7 @@ margin-right:;
 @media (min-width: 300px) and (max-width: 480px) {
   #footer {
     flex-wrap: wrap;
+    align-items: center;
   }
 }
 .imgNoti1Tenis {
