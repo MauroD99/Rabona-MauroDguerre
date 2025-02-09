@@ -1,5 +1,5 @@
 /*LLAMADO A MEDIA QUERIES*/
-@media  (max-width: 1000px){
+@media  (max-width: 1100px){
     #mainFutbol {
         grid-template-areas: 
         "section1" 
@@ -13,7 +13,10 @@
         "section9";
         grid-template-columns: 1fr ;
         grid-template-rows: repeat(9,1fr);
-
+        .section1 {
+            display: flex;
+            align-items: center;
+        }
     }
     }
 /* RESPONSIVE PAG AUTOMOVILISMO */
@@ -88,7 +91,7 @@
 
         /* RESPONSIVE TENIS */
 
-        @media (max-width: 1450px){
+        @media (min-width: 300px) and (max-width: 1450px){
             .articleNoti1Tenis {
                 flex-wrap: wrap;
                 flex-direction: column;
