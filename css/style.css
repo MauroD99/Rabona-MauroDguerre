@@ -347,17 +347,18 @@ margin-right:;
   }
 }
 /* RESPONSIVE PAG AUTOMOVILISMO */
-@media (max-width: 750px) {
+@media (min-width: 300px) and (max-width: 750px) {
   #mainAuto {
     flex-wrap: wrap;
     flex-direction: column;
   }
 }
 /* RESPONSIVE PAG INDEX */
-@media (max-width: 1500px) {
+@media (min-width: 300px) and (max-width: 1500px) {
   #main {
     flex-wrap: wrap;
     flex-direction: column;
+    align-items: center;
   }
   .articleNoti1 {
     flex-wrap: wrap;
@@ -423,6 +424,9 @@ margin-right:;
     flex-direction: column;
     align-items: center;
     max-width: 90%; /* Ancho máximo del 90% en móviles */
+  }
+  .imgNoti1Tenis {
+    max-width: 100%;
   }
 }
 .imgNoti1Tenis {
