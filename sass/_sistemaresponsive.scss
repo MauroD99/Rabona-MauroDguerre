@@ -68,6 +68,7 @@
             #mainBasquet {
                 flex-wrap: wrap;
                 flex-direction: column;
+                align-items: center;
             }
 
             
@@ -75,15 +76,20 @@
 
         @media (max-width: 1300px) {
             .noti1Basquet {
-                flex-wrap: wrap;}
+                flex-wrap: wrap;
+            align-items: center;}
+                
             .noti2Basquet {
                 flex-wrap: wrap;
+                align-items: center;
             }
             .section2Basquet {
                 flex-wrap: wrap;
+                align-items: center;
             }
             .section1Basquet {
                 flex-wrap: wrap;
+                align-items: center;
             }
         }
 
@@ -97,12 +103,13 @@
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
-        width: 100%; /* Largura ocupando 90% da tela */
+        max-width: 90%; /* Ancho máximo del 90% en móviles */
+
     }
     .articleNoti2Tenis {
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
-        width: 100%; /* Largura ocupando 90% da tela */
+        max-width: 90%; /* Ancho máximo del 90% en móviles */
     }
 }
