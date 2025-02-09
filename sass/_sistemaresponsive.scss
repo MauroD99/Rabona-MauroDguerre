@@ -13,9 +13,36 @@
         "section9";
         grid-template-columns: 1fr ;
         grid-template-rows: repeat(9,1fr);
+        max-width: 90%; /* Ancho máximo del 90% en móviles */
         .section1 {
             display: flex;
             align-items: center;
+            max-width: 90%; /* Ancho máximo del 90% en móviles */
+        }
+        .section2 {
+            display: flex;
+            align-items: center;
+            max-width: 90%; /* Ancho máximo del 90% en móviles */
+        }
+        .section3 {
+            display: flex;
+            align-items: center;
+            max-width: 90%; /* Ancho máximo del 90% en móviles */
+        }
+        .section4 {
+            display: flex;
+            align-items: center;
+            max-width: 90%; /* Ancho máximo del 90% en móviles */
+        }
+        .section5 {
+            display: flex;
+            align-items: center;
+            max-width: 90%; /* Ancho máximo del 90% en móviles */
+        }
+        .section6 {
+            display: flex;
+            align-items: center;
+            max-width: 90%; /* Ancho máximo del 90% en móviles */
         }
     }
     }
@@ -24,6 +51,8 @@
     #mainAuto {
         flex-wrap: wrap;
         flex-direction: column;
+        align-items: center;
+        max-width: 90%; /* Ancho máximo del 90% en móviles */
     }
     }
 
@@ -34,6 +63,7 @@
             flex-wrap: wrap;
             flex-direction: column;
             align-items: center;
+            max-width: 90%; /* Ancho máximo del 90% en móviles */
         }
 
         .articleNoti1 {
@@ -41,18 +71,21 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            max-width: 90%; /* Ancho máximo del 90% en móviles */
         }
 
         .articleNoti2 {
             flex-wrap: wrap;
             flex-direction: column;
             align-items: center;
+            max-width: 90%; /* Ancho máximo del 90% en móviles */
         }
 
         .articleNoti3 {
             flex-wrap: wrap;
             flex-direction: column;
             align-items: center;
+            max-width: 90%; /* Ancho máximo del 90% en móviles */
         }
 
         .sectionNotiInicio {
@@ -61,6 +94,7 @@
             flex-wrap: wrap;
             flex-direction: column;
             align-items: center;
+            max-width: 90%; /* Ancho máximo del 90% en móviles */
         }
         }
 
@@ -71,6 +105,7 @@
                 flex-wrap: wrap;
                 flex-direction: column;
                 align-items: center;
+                max-width: 90%; /* Ancho máximo del 90% en móviles */
             }
 
             
@@ -79,19 +114,24 @@
         @media (min-width: 200px) and  (max-width: 480px) {
             .noti1Basquet {
                 flex-wrap: wrap;
-            align-items: center;}
+            align-items: center;
+            max-width: 90%; /* Ancho máximo del 90% en móviles */}
+            
                 
             .noti2Basquet {
                 flex-wrap: wrap;
                 align-items: center;
+                max-width: 90%; /* Ancho máximo del 90% en móviles */
             }
             .section2Basquet {
                 flex-wrap: wrap;
                 align-items: center;
+                max-width: 90%; /* Ancho máximo del 90% en móviles */
             }
             .section1Basquet {
                 flex-wrap: wrap;
                 align-items: center;
+                max-width: 90%; /* Ancho máximo del 90% en móviles */
             }
         }
 
