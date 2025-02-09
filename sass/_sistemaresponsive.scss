@@ -91,17 +91,16 @@
 
         /* RESPONSIVE TENIS */
 
-        @media (min-width: 300px) and (max-width: 1450px){
-            .articleNoti1Tenis {
-                flex-wrap: wrap;
-                flex-direction: column;
-                align-items: center;
-            }
-            .articleNoti2Tenis {
-                flex-wrap: wrap;
-                flex-direction: column;
-                align-items: center;
-            }
-
-            
-        }
+/* Estilos para telas menores que 480px (celulares) */
+@media (max-width: 480px) {
+    .articleNoti1Tenis {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .articleNoti2Tenis {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+}

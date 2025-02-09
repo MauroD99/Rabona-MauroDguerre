@@ -404,7 +404,8 @@ margin-right:;
   }
 }
 /* RESPONSIVE TENIS */
-@media (min-width: 300px) and (max-width: 1450px) {
+/* Estilos para telas menores que 480px (celulares) */
+@media (max-width: 480px) {
   .articleNoti1Tenis {
     flex-wrap: wrap;
     flex-direction: column;
