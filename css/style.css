@@ -340,42 +340,31 @@ margin-right:;
     grid-template-areas: "section1" "section2" "section3" "section4" "section5" "section6" "section7" "section8" "section9";
     grid-template-columns: 1fr;
     grid-template-rows: repeat(9, 1fr);
-    max-width: 90%; /* Ancho máximo del 90% en móviles */
+    max-width: 100%; /* Ancho máximo del 90% en móviles */
   }
-  #mainFutbol .section1 {
-    display: flex;
-    align-items: center;
-    max-width: 90%; /* Ancho máximo del 90% en móviles */
+  .imgagenSectionGrid {
+    min-width: none;
+    max-width: 480px;
   }
-  #mainFutbol .section2 {
-    display: flex;
-    align-items: center;
-    max-width: 90%; /* Ancho máximo del 90% en móviles */
-  }
-  #mainFutbol .section3 {
-    display: flex;
-    align-items: center;
-    max-width: 90%; /* Ancho máximo del 90% en móviles */
-  }
-  #mainFutbol .section4 {
-    display: flex;
-    align-items: center;
-    max-width: 90%; /* Ancho máximo del 90% en móviles */
-  }
-  #mainFutbol .section5 {
-    display: flex;
-    align-items: center;
-    max-width: 90%; /* Ancho máximo del 90% en móviles */
-  }
-  #mainFutbol .section6 {
-    display: flex;
-    align-items: center;
-    max-width: 90%; /* Ancho máximo del 90% en móviles */
+  section {
+    max-width: 480px;
   }
 }
 /* RESPONSIVE PAG AUTOMOVILISMO */
 @media (min-width: 200px) and (max-width: 480px) {
   #mainAuto {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%; /* Ancho máximo del 90% en móviles */
+  }
+  .carousel-item {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%; /* Ancho máximo del 90% en móviles */
+  }
+  .imgActc {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
@@ -445,23 +434,34 @@ margin-right:;
 @media (min-width: 200px) and (max-width: 480px) {
   .noti1Basquet {
     flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     max-width: 90%; /* Ancho máximo del 90% en móviles */
   }
   .noti2Basquet {
     flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     max-width: 90%; /* Ancho máximo del 90% en móviles */
   }
   .section2Basquet {
     flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     max-width: 90%; /* Ancho máximo del 90% en móviles */
   }
   .section1Basquet {
     flex-wrap: wrap;
     align-items: center;
+    flex-direction: column;
     max-width: 90%; /* Ancho máximo del 90% en móviles */
+  }
+  .videoBasquet {
+    align-items: center;
+    max-width: 480px; /* Ancho máximo del 90% en móviles */
+  }
+  img {
+    max-width: 480px;
   }
 }
 /* RESPONSIVE TENIS */
