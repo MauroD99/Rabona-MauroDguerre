@@ -1,4 +1,4 @@
-/*LLAMADO A MEDIA QUERIES*/
+/*LLAMADO A MEDIA QUERIES futbol*/
 @media (min-width: 200px) and  (max-width: 480px){
     #mainFutbol {
         grid-template-areas: 
@@ -11,19 +11,24 @@
         "section7"
         "section8" 
         "section9";
-        grid-template-columns: 1fr ;
+        grid-template-columns: 480px ;
         grid-template-rows: repeat(9,1fr);
         max-width: 100%; /* Ancho máximo del 90% en móviles */
 
         }
         .imgagenSectionGrid {
             min-width: none;
+            max-width: 90%;
+        }
+        .pieFoto {
+            min-width: none;
             max-width: 480px;
         }
-        section {
-            max-width: 480px;
+        .videoFutbol {
+            min-width: none;
+            max-width: 90%;
+        }
     }
-}
 /* RESPONSIVE PAG AUTOMOVILISMO */
 @media (min-width: 200px) and (max-width: 480px) {
     #mainAuto {
@@ -45,6 +50,17 @@
         align-items: center;
         max-width: 90%; /* Ancho máximo del 90% en móviles */
     }
+
+    .sectionVideosFranco {
+        min-width: none;
+        max-width: 90%; /* Ancho máximo del 90% en móviles */
+    }
+    .videoFranco {
+        min-width: none;
+        max-width: 90%;
+
+    }
+
     }
 
 /* RESPONSIVE PAG INDEX */
@@ -114,7 +130,6 @@
 
             
         }
-/* Estilos para telas menores que 480px (celulares) */
         @media (min-width: 200px) and  (max-width: 480px) {
             .noti1Basquet {
                 flex-wrap: wrap;
@@ -144,7 +159,7 @@
 
             .videoBasquet {
                 align-items: center;
-                max-width: 480px; /* Ancho máximo del 90% en móviles */
+                max-width: 90%; /* Ancho máximo del 90% en móviles */
             }
             img {
                 max-width: 480px;
@@ -187,5 +202,6 @@
     #footer {
         flex-wrap: wrap;
         align-items: center;
+        flex-direction: row;
     }
 }
